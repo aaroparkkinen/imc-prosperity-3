@@ -171,7 +171,7 @@ trade and which were deep in the money making our algorithm
 non-functional. As a result, we removed the 9500 and 9750 strike options
 from our active strategy for simplicity and to reduce risk of a massive
 loss.
-![Alt text](images/p&l1.png)
+\
 ![Alt text](images/p&l2.png)
 ![Alt text](images/volume.png)
 
