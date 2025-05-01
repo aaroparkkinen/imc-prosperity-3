@@ -38,23 +38,20 @@ efforts from our teammate Hamish.
 
 ## Why we took part in IMC Prosperity 3
 
-We are two students with excellent academic performance and a strong
-mathematical ability. We are both passionate about investments and
-trading, actively follow the financial markets and continuously try to
-learn more about investing - both of us have been actively investing
-since turning 18. Furthermore, Aaro has completed an internship in
-trading, which provided us with a solid technical foundation going into
-the competition. A driver for us to join the competition was the chance
-to on expand our computational expertise, challenge ourselves and prove
-our capabilities.
+We are both passionate about investments and trading, actively 
+follow the financial markets and continuously try to learn more about 
+investing - both of us have been actively investing since turning 18.
+Our academic background in Financial Mathematics as well Aaro having completed 
+an internship in trading, gave us a solid technical foundation going into the 
+competition. A driver for us to join the competition was the chance to on expand 
+our computational expertise, challenge ourselves and prove our capabilities.
 
 ## Thoughts and learning outcomes
 
 Starting this challenge, we had strong mathematical foundation and an
 intermediate-level coding knowledge. In Python, we were comfortable
-creating functions, loops, conditionals and using arrays to solve
-problem in computational finance. We also had basic knowledge about data
-visualization and analysis using libraries like pandas and matplotlib.
+creating basic programs solving problems in computational finance. 
+We also had knowledge about data visualization and analysis in Python.
 
 However, the challenge forced us to adapt and learn new skills quickly.
 IMC Prosperity used object-oriented programming (OOP) in Python, with
@@ -64,7 +61,7 @@ methods of de-bugging. We began testing the efficiency of our code and
 added visualizers and a back-testing tool into our process to create and
 evaluate new strategies.
 
-We also adopted GitHub as our primary collaboration tool, which was
+We also adopted Github as our primary collaboration tool, which was
 crucial for maintaining clear communication across time zones and
 keeping track of each team member's progress and findings. By the end of
 the competition, our code had become well-organized, modular, and easy
@@ -347,8 +344,8 @@ to this large increase in price. This round our overall persistence and
 intuition led to one of our best performances.
 
 Manual trading was a strong aspect for us going into the competition
-with our extensive backgrounds in mathematics, statistics and
-probability. Throughout the challenge, we learned to understanding other
+supported by our extensive backgrounds in mathematics. 
+Throughout the challenge, we learned to understanding other
 market participants and their behaviour in financial environments. We
 learned to evaluating risk tolerance and use stress-testing and
 simulations outside an academic environment sharpening our strategic
@@ -368,12 +365,11 @@ trading. Starting from limited programming knowledge, we progressed to
 developing and refining complex trading strategies. We learned to apply
 technical skills to the overall trading process - from market and data
 analysis to strategic execution and performance evaluation. It is always
-exciting to compete with other like-minded individuals while applying
-our academical knowledge into developing real-world skills. Not
-everything we did was successful, but every success and every failure
-offered opportunities for growth. This experience has inspired us to
-continue learning about trading and elevate our coding ability to the
-new level.
+exciting to compete with other like-minded individuals while learning
+about trading and developing real-world skills. Not everything we did 
+was successful, but every success and every failure offered opportunities 
+for growth. This experience has inspired us to continue learning about 
+trading and elevate our coding ability to the new level.
 
 We want to thank our teammate Hamish for bringing valuable experience
 and a positive mindset to our team. His contributions helped keep the
