@@ -7,13 +7,18 @@ The first three tradable products are introduced: : Rainforest Resin , Kelp, and
 Position limits for the newly introduced products:
 \
 •	RAINFOREST_RESIN: 50
+\
 •	KELP: 50
+\
 •	SQUID_INK: 50
+\
 Hint
+\
 Squid Ink can be a very volatile product with price having large swings. Making a two-sided market or carrying position can be risky for such an instrument. However, with large swings comes large reversion. Squid Ink prices show more tendency to revert short term swings in price.
 A metric to keep track of the size of deviation/swing from recent average could help in trading profitable positions.
 \
 Manual challenge
+\
 You get the chance to do a series of trades in some foreign island currencies. The first trade is a conversion of your SeaShells into a foreign currency, the last trade is a conversion from a foreign currency into SeaShells. Everything in between is up to you. Give some thought to what series of trades you would like to do, as there might be an opportunity to walk away with more shells than you arrived with.
 
 ### Round 2
@@ -21,24 +26,34 @@ Algorithm challenge
 In this second round, you’ll find that everybody on the archipelago loves to picnic. Therefore, in addition to the products from round one, two Picnic Baskets are now available as a tradable good.
 \
 PICNIC_BASKET1 contains three products:
+\
 1.	Six (6) CROISSANTS
-2.	Three (3) JAMS
-3.	One (1) DJEMBES
+\
+3.	Three (3) JAMS
+\
+5.	One (1) DJEMBES
 \
 PICNIC_BASKET2 contains just two products:
+\
 1.	Four (4) CROISSANTS
-2.	Two (2) JAMS
+\
+3.	Two (2) JAMS
 \
 Aside from the Picnic Baskets, you can now also trade the three products individually on the island exchange.
 Position limits for the newly introduced products:
 \
 •	CROISSANTS: 250
+\
 •	JAMS: 350
+\
 •	DJEMBES: 60
+\
 •	PICNIC_BASKET1: 60
+\
 •	PICNIC_BASKET2: 100
 \
 Manual challenge
+\
 Some shipping containers with valuables inside washed ashore. You get to choose a maximum of two containers to open and receive the valuable contents from. The first container you open is free of charge, but for the second one you will have to pay some SeaShells. Keep in mind that you are not the only one choosing containers and making a claim on its contents. You will have to split the spoils with all others that choose the same container. So, choose carefully.
 Here's a breakdown of how your profit from a container will be computed: Every container has its treasure multiplier (up to 90) and number of inhabitants (up to 10) that will be choosing that particular container. The container’s total treasure is the product of the base treasure (10 000, same for all containers) and the container’s specific treasure multiplier. However, the resulting amount is then divided by the sum of the inhabitants that choose the same container and the percentage of opening this specific container of the total number of times a container has been opened (by all players).
 For example, if 5 inhabitants choose a container, and this container was chosen 10% of the total number of times a container has been opened (by all players), the prize you get from that container will be divided by 15. After the division, costs for opening a container apply (if there are any), and profit is what remains.
@@ -54,32 +69,49 @@ Position limits for the newly introduced products:
 •	VOLCANIC_ROCK: 400
 \
 VOLCANIC_ROCK_VOUCHER_9500 :
+\
 •	Position Limit: 200
+\
 •	Strike Price: 9,500 SeaShells
+\
 •	Expiration deadline: 7 days (1 round = 1 day) starting from round 1
 \
 VOLCANIC_ROCK_VOUCHER_9750 :
+\
 •	Position Limit: 200
+\
 •	Strike Price: 9,750 SeaShells
+\
 •	Expiration deadline: 7 days (1 round = 1 day) starting from round 1
 \
 VOLCANIC_ROCK_VOUCHER_10000 :
+\
 •	Position Limit: 200
+\
 •	Strike Price: 10,000 SeaShells
+\
 •	Expiration deadline: 7 days (1 round = 1 day) starting from round 1
 \
 VOLCANIC_ROCK_VOUCHER_10250 :
+\
 •	Position Limit: 200
+\
 •	Strike Price: 10,250 SeaShells
+\
 •	Expiration deadline: 7 days (1 round = 1 day) starting from round 1
 \
 VOLCANIC_ROCK_VOUCHER_10500 :
+\
 •	Position Limit: 200
+\
 •	Strike Price: 10,500 SeaShells
+\
 •	Expiration deadline: 7 days (1 round = 1 day) starting from round 1
 \
 Hint for Algorithmic Challenge
+\
 Hello everyone, hope you're enjoying the VOLCANIC_ROCK vouchers and a variety of trading strategies these new products introduce. While digging for the rock, Archipelago residents found some ancient mathematics sharing insights into VOLCANIC_ROCK voucher trading. Here's what the message with obscure and advanced mathematics read,
+\
 Message begins,
 I have discovered a strategy which will make ArchiCapital the biggest trading company ever. Here's how my thesis goes,
 t: Timestamp St: Voucher Underlying Price at t K: Strike TTE: Remaining Time till expiry at t Vt: Voucher price of strike K at t
@@ -90,6 +122,7 @@ This fitted v_t(m_t) allows me to evaluate opportunities between different strik
 Message ends.
 \
 Manual challenge
+\
 A big group of Sea Turtles is visiting our shores, bringing with them an opportunity to acquire some top grade FLIPPERS. You only have two chances to offer a good price. Each one of the Sea Turtles will accept the lowest bid that is over their reserve price.
 The distribution of reserve prices is uniform between 160–200 and 250–320, but none of the Sea Turtles will trade between 200 and 250 due to some ancient superstition.
 For your second bid, they also take into account the average of the second bids by other traders in the archipelago. They’ll trade with you when your offer is above the average of all second bids. But if you end up under the average, the probability of a deal decreases rapidly.
@@ -106,23 +139,20 @@ Position limits for the newly introduced products:
 •	Conversion Limit for MAGNIFICENT_MACARONS = 10
 \
 Hint - Algo
+\
 It was well understood lore in Archipelago that low sunlight index can impact sugar and MACARON production negatively causing prices to rise due to panic among residents. However, ArchiResearchers have identified existence of a CriticalSunlightIndex (CSI).
 If sunlightIndex goes below this CSI with an anticipation to remain under this critical level for a long period of time, sugar and MACARON prices can increase by substantial amount with a strong correlation.
 When sunlightIndex is above this CSI, Sugar and MACARON prices tend to trade around their respective fair values and demonstrates market supply-demand dynamics.
 Can you find this CSI and use it to trade better than ever and make your island prosper? All the best!
 \
 Manual challenge
+\
 You’re participating in a brand new game show and have the opportunity to open up a maximum of three suitcases with great prizes in them. The whole archipelago is participating, so you’ll have to share the spoils with everyone choosing the same suitcase. Opening one suitcase is free, but for the second and third one you’ll need to pay to get inside.
 Here's a breakdown of how your profit from a suitcase will be computed: Every suitcase has its prize multiplier (up to 100) and number of inhabitants (up to 15) that will be choosing that particular suitcase. The suitcase’s total treasure is the product of the base treasure (10 000, same for all suitcases) and the suitcase’s specific treasure multiplier. However, the resulting amount is then divided by the sum of the inhabitants that choose the same suitcase and the percentage of opening this specific suitcase of the total number of times a suitcase has been opened (by all players).
 For example, if 5 inhabitants choose a suitcase, and this suitcase was chosen 10% of the total number of times a suitcase has been opened (by all players), the prize you get from that suitcase will be divided by 15. After the division, costs for opening a suitcase apply (if there are any), and profit is what remains.
-To help you with your decision making, here's the distribution of player's choices from Round 2 Manual:
+
 \
-Additional trading microstructure information:
-1.	ConversionObservation (detailed in “Writing an Algorithm in Python” under E-learning center) shows quotes of MAGNIFICENT_MACARONS offered by the chefs from Pristine Cuisine
-2.	To purchase 1 unit of MAGNIFICENT_MACARONS from Pristine Cuisine, you will purchase at askPrice, pay TRANSPORT_FEES and IMPORT_TARIFF
-3.	To sell 1 unit of MAGNIFICENT_MACARONS to Pristine Cuisine, you will sell at bidPrice, pay TRANSPORT_FEES and EXPORT_TARIFF
-4.	You can ONLY trade with Pristine Cuisine via the conversion request with applicable conditions as mentioned in the wiki
-5.	For every 1 unit of MAGNIFICENT_MACARONS net long position, storage cost of 0.1 Seashells per timestamp will be applied for the duration that position is held. No storage cost applicable to net short position
+
 
 ### Round 5
 Algorithm challenge
