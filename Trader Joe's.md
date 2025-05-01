@@ -50,8 +50,8 @@ our computational expertise, challenge ourselves and prove our capabilities.
 
 Starting this challenge, we had a strong mathematical foundation and an
 intermediate-level of coding knowledge. In Python, we were comfortable
-creating basic programs solving problems in computational finance. 
-We also had knowledge about data visualization and analysis in Python.
+creating basic programs to solve problems in computational finance. 
+We also had knowledge about data analysis and visualization in Python.
 
 However, the challenge forced us to adapt and learn new skills quickly.
 IMC Prosperity used object-oriented programming (OOP) in Python, with
@@ -343,7 +343,7 @@ scarcity described in the news article for a high demand asset leading
 to this large increase in price. This round our overall persistence and
 intuition led to one of our best performances.
 
-Manual trading was a strong aspect for us going into the competition
+The manual trading was a strong aspect for us going into the competition
 supported by our extensive backgrounds in mathematics. 
 Throughout the challenge, we learned to understanding other
 market participants and their behaviour in financial environments. We
