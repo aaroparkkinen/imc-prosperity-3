@@ -41,15 +41,15 @@ efforts from our teammate Hamish.
 We are both passionate about investments and trading, actively 
 follow the financial markets and continuously try to learn more about 
 investing - both of us have been actively investing since turning 18.
-Our academic background in Financial Mathematics as well Aaro having completed 
+Our academic background in Financial Mathematics as well as Aaro having completed 
 an internship in trading, gave us a solid technical foundation going into the 
 competition. A driver for us to join the competition was the chance to on expand 
 our computational expertise, challenge ourselves and prove our capabilities.
 
 ## Thoughts and learning outcomes
 
-Starting this challenge, we had strong mathematical foundation and an
-intermediate-level coding knowledge. In Python, we were comfortable
+Starting this challenge, we had a strong mathematical foundation and an
+intermediate-level of coding knowledge. In Python, we were comfortable
 creating basic programs solving problems in computational finance. 
 We also had knowledge about data visualization and analysis in Python.
 
