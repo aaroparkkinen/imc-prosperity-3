@@ -1,4 +1,4 @@
-\# Trader Joe's report - IMC Prosperity 3
+# Trader Joe's report - IMC Prosperity 3
 
 Conor Grant, Aaro Parkkinen, Hamish Poole
 
@@ -27,7 +27,7 @@ total participating teams.
 
 - 318th in manual trading
 
-\## Team introduction
+## Team introduction
 
 Conor and Aaro are final-year Financial Mathematics students from
 University College Dublin. Our team also included Hamish, a software
@@ -36,7 +36,7 @@ Prosperity Discord. This report is written from the perspective of Conor
 and Aaro (we), also acknowledging the strong participation and valuable
 efforts from our teammate Hamish.
 
-\## Why we took part in IMC Prosperity 3
+## Why we took part in IMC Prosperity 3
 
 We are two students with excellent academic performance and a strong
 mathematical ability. We are both passionate about investments and
@@ -48,7 +48,7 @@ the competition. A driver for us to join the competition was the chance
 to on expand our computational expertise, challenge ourselves and prove
 our capabilities.
 
-\## Thoughts and learning outcomes
+## Thoughts and learning outcomes
 
 Starting this challenge, we had strong mathematical foundation and an
 intermediate-level coding knowledge. In Python, we were comfortable
@@ -73,7 +73,7 @@ back-testing and visualisation to analyse our trading accelerating our
 process from data analysis to writing code and determining its
 performance.
 
-\## Algorithmic Rounds
+## Algorithmic Rounds
 
 The algorithmic trading challenge ran continuously over the 15-day
 competition, with each round introducing new products or market
@@ -99,17 +99,16 @@ good habits that will serve us well in future projects. Sharing and
 organising our work efficiently became essential. By round 3, we were
 all working on the same codebase, improving our collaboration and made
 it easier to share our findings and fails through GitHub.
+### Trading strategies
 
-\### Trading strategies
-
-\#### Rainforest Resin
+#### Rainforest Resin
 
 This product was an actively traded commodity worth 10,000 SeaShells,
 typically traded around 0.1 % of its true price. We implemented a
 market-making strategy to sell above and buy below the 10,000 level,
 profiting from the bid-ask spread.
 
-\#### Kelp & Croissants
+#### Kelp & Croissants
 
 For these products, we also applied a market-making strategy. Since
 these products didn't have a 'true price', the market making was
@@ -119,7 +118,7 @@ experimenting with different momentum-based strategies and Bollinger
 bands, however, both products were relatively stable, and we unable to
 find a consistently profitable strategy outside market-making.
 
-\#### Squid Ink
+#### Squid Ink
 
 This product was the most time-consuming throughout the challenge.
 Initially, we pursued a momentum-based strategy, to capture profits from
@@ -128,7 +127,7 @@ towards short-to-medium term mean reversion approach. Despite extensive
 modelling trying to quantify the key metrics to make this strategy work
 we did not achieve a fully functional stable strategy.
 
-\#### Jams & Djembes
+#### Jams & Djembes
 
 These products had low Average Ture Range (ATR) values, moving
 marginally daily. We utilized floor/ceiling prices to try to trade
@@ -136,7 +135,7 @@ relative price ranges, which proved to outperform momentum and market
 making strategies, and eventually developed slightly profitable stable
 strategies to trade these products.
 
-\#### Picnic Baskets
+#### Picnic Baskets
 
 The two Picnic Baskets functioned as ETFs consisting of a mix of the
 three previously mentioned products: Jams, Djembes and Croissants. Our
@@ -146,7 +145,7 @@ arbitrage to buy when baskets were undervalued and sell overvalued.
 These strategies worked reliably and created a constant income source
 for us.
 
-\#### Volcanic Rock
+#### Volcanic Rock
 
 Volcanic Rock was a highly volatile asset with large moves and the
 ability to trade in large volume, offering massive trading potential. We
@@ -157,7 +156,7 @@ conditions changed. In our final submission, we ran into a last minute
 issue with our code that resulted in no trades being executed for
 Volcanic Rock for that round.
 
-\#### Vouchers
+#### Vouchers
 
 The Vouchers functioned as European-styled call options on Volcanic Rock
 with different strike prices. We calculated time to expiry and realised
@@ -188,7 +187,7 @@ some of the most valuable lessons: the importance of back-testing
 methods and visualizers, avoid overfitting, managing risk in volatile
 environments, and remaining adaptable during changing conditions.
 
-\## Manual Rounds
+## Manual Rounds
 
 The manual rounds consisted of solving trading challenges based on
 round-specific information. The questions consisted of optimisation,
@@ -197,7 +196,7 @@ news and information could affect asset prices. Every round tested our
 intuition, strategic decision-making and application of computational
 and mathematical tools to evaluate different scenarios.
 
-\#### Round 1 - Currency Arbitrage
+#### Round 1 - Currency Arbitrage
 
 |                 | Snowballs | Pizza | Silicon Nuggets | SeaShells |
 |-----------------|-----------|-------|-----------------|-----------|
@@ -213,7 +212,7 @@ sequencies and picked the most profitable one: SeaShells -\> Snowballs
 -\> Silicon Nuggets -\> Pizza -\> Snowballs -\> SeaShells. This was a
 simple currency arbitrage problem.
 
-\#### Rounds 2 - Containers
+#### Rounds 2 - Containers
 
 This round involved picking one or two containers out of ten options.
 Each container had a base reward of 10,000 SeaShells, multiplied by its
@@ -276,7 +275,7 @@ container due to the high additional fee (50,000) as our expected profit
 would be negative, expecting that at most two containers would yield
 this profit making this too risky.
 
-\#### Round 3 - Auction
+#### Round 3 - Auction
 
 This round, we had the chance to trade flippers with Sea Turtles by
 submitting two bids. The problem combined game theory and optimisation.
@@ -299,7 +298,7 @@ solution, showing low risk-aversion and average bid turned out to be
 287, which resulted in a slight loss for us compared to the overall
 field.
 
-\#### Round 4 - Containers 2.0
+#### Round 4 - Containers 2.0
 
 This round was an extension of round 2, but with 20 containers. This
 time there was the option to choose one container for free, second one
@@ -316,7 +315,7 @@ shifted the overall mindset of participants, making the high multiplier
 containers the most profitable. We chose two containers, and once again
 received an average payoff from this challenge.
 
-\#### Round 5 - News based market prediction
+#### Round 5 - News based market prediction
 
 In the final round, we were given brief news articles for different
 products and had to predict price movements before market opening. We
@@ -356,7 +355,7 @@ competition reinforced that success in trading often comes not just from
 having a strong strategy, but from adapting to dynamic and unpredictable
 conditions.
 
-\## Conclusions
+## Conclusions
 
 This competition was an excellent learning experience in algorithmic
 trading. Starting from limited programming knowledge, we progressed to
