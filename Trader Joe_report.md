@@ -173,8 +173,10 @@ from our active strategy for simplicity and to reduce risk of a massive
 loss.
 \
 <img src="images/p&l2.png" alt="Pic 1" width="350"/>
-<img src="images/volume.png" alt="Pic 2" width="500"/>
-
+<img src="images/volume.png" alt="Pic 2" width="600"/>
+\
+#### Example day on of our final code
+\
 
 As mentioned above, coding was not our strongest point going into this
 challenge, but after completing the 5 rounds, we can confidently say our
