@@ -316,7 +316,9 @@ profits like in round 2. This turned out to be the wrong hypothesis and
 the big profits created by the lower-multiplier containers in round 2
 shifted the overall mindset of participants, making the high multiplier
 containers the most profitable. We chose two containers, and once again
-received an average payoff from this challenge.
+received an average payoff from this challenge. Our rationale to picking two
+was that most containers would return above 50,000 SeaShells, however,
+100,000 was too expensive to take the risk.
 
 #### Round 5 - News based market prediction
 
