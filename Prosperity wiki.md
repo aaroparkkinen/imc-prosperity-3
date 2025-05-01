@@ -152,7 +152,7 @@ You’re participating in a brand new game show and have the opportunity to open
 Here's a breakdown of how your profit from a suitcase will be computed: Every suitcase has its prize multiplier (up to 100) and number of inhabitants (up to 15) that will be choosing that particular suitcase. The suitcase’s total treasure is the product of the base treasure (10 000, same for all suitcases) and the suitcase’s specific treasure multiplier. However, the resulting amount is then divided by the sum of the inhabitants that choose the same suitcase and the percentage of opening this specific suitcase of the total number of times a suitcase has been opened (by all players).
 For example, if 5 inhabitants choose a suitcase, and this suitcase was chosen 10% of the total number of times a suitcase has been opened (by all players), the prize you get from that suitcase will be divided by 15. After the division, costs for opening a suitcase apply (if there are any), and profit is what remains.
 
-\
+
 
 
 ### Round 5
