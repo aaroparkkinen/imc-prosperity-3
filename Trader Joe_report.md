@@ -172,8 +172,9 @@ non-functional. As a result, we removed the 9500 and 9750 strike options
 from our active strategy for simplicity and to reduce risk of a massive
 loss.
 \
-![Alt text](images/p&l2.png)
-![Alt text](images/volume.png)
+<img src="images/p&l2.png" alt="Pic 1" width="300"/>
+<img src="images/volume.png" alt="Pic 2" width="300"/>
+
 
 As mentioned above, coding was not our strongest point going into this
 challenge, but after completing the 5 rounds, we can confidently say our
