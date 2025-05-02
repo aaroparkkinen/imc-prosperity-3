@@ -27,6 +27,21 @@ total participating teams.
 
 - 318th in manual trading
 
+## Table of Contents
+- Team introduction
+
+- Why we took part in IMC Prosperity 3
+
+- Thoughts and learning outcomes
+
+- Algorithmic rounds
+
+- Trading strategies
+
+- Manual rounds
+
+- Conclusions
+
 ## Team introduction
 
 Conor and Aaro are final-year Financial Mathematics students from
